@@ -19,4 +19,4 @@ Two methods:
 - Entropy measurement (if entropy of lower pixels is low then it's an image), [explained](https://incoherency.co.uk/blog/stories/image-steganography.html) by James Stanley
 - Adding entropy (randomly edit lower pixels, destroying the image (using comapression))
 
-Can beat both methotds with changing the resolution and compressing
+Can beat both methods with changing resolution and compressing
