@@ -20,3 +20,7 @@ Two methods:
 - Adding entropy (randomly edit lower pixels, destroying the image (using comapression))
 
 Can beat both methods with changing resolution and compressing
+
+## Todo
+
+ - Bulk encryption 
