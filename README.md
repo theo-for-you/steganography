@@ -1,9 +1,12 @@
 # Steganography tool
 Hiding one image inside another with a simple interface 
 
+Key: any key to get a random encrypt (could be the domain, so users of the site can decrypt)
+
 Two methods:
 
  1. Swapping lower pixels of one image with higher pixels of another image (human undetectable, but easy to remove)
+    1.1. Using a key on every pixel to decet entropy
  2. Randomly swapping rows in the image (human detectable, but uneasy to remove)
 
 ## How it works
