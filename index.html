@@ -1,0 +1,37 @@
+Domain:<input type="text" id="key"></input>
+<div>
+    Image:<input type="file" accept="image/*" id="input_image"></input>
+    <text id="input_image_res"></text>
+</div>
+<div id="image_cover_div">
+    Image cover:<input type="file" accept="image/*" id="input_image_cover"></input>
+    <text id="input_image_cover_res"></text>
+</div>
+
+
+<div>
+    <input type="radio" name="mode" id="bit_swap"> <label for="bit_swap">Bit swap</label>
+    <input type="radio" name="mode" id="string_swap"> <label for="string_swap">String swap</label>
+</div>
+<div>
+    <input type="radio" name="type" id="enc"> <label for="enc">Encrypt</label>
+    <input type="radio" name="type" id="dec"> <label for="dec">Decrypt</label>
+</div>
+
+
+
+<button style="display: flex;" id="start_but">Start</button>
+<div><text style="visibility: hidden;" id="load">Loading...</text></div>
+
+
+
+<canvas id="canvas_res" style="width: 50%;"></canvas>
+
+<a href="https://github.com/theo-for-you/steganography">Sources and help</a>
+
+<script src="utils.js"></script>
+<script src="rand.js"></script>
+<script src="swap_strings.js"></script>
+<script src="swap_bits.js"></script>
+
+<script src="steganography.js"></script>
