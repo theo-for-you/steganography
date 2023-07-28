@@ -1,4 +1,4 @@
-# Steganography encoder
+# Steganography tool
 Hiding one image inside another with a simple interface 
 
 Two methods:
