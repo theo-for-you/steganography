@@ -23,4 +23,5 @@ Can beat both methods with changing resolution and compressing
 
 ## Todo
 
- - Bulk encryption 
+ - Bulk encryption
+ - Extension to decrypt
