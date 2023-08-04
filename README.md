@@ -1,13 +1,13 @@
 # Steganography tool
 Hiding one image inside another with a simple interface 
 
-Key: any key to get a random encrypt (could be the domain, so users of the site can decrypt)
+Key: any key to get a random encrypt (could be a domain, so the users of a site could decrypt)
 
 Two methods:
 
  1. Swapping lower pixels of one image with higher pixels of another image (human undetectable, but easy to remove)
-    - Using a key on every pixel to decet entropy
- 2. Randomly swapping rows in the image (human detectable, but uneasy to remove)
+    - Using a key on every pixel to get an entropy
+ 2. Randomly swapping rows in image (human detectable, but uneasy to remove)
 
 ## How it works
 [Steganography: Hiding an image inside another](https://towardsdatascience.com/steganography-hiding-an-image-inside-another-77ca66b2acb1) by Kelvin Salton do Prado
@@ -24,4 +24,3 @@ Can beat both methods with changing resolution and compressing
 ## Todo
 
  - Bulk encryption
- - Extension to decrypt
