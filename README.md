@@ -6,7 +6,7 @@ Key: any key to get a random encrypt (could be a domain, so the users of a site 
 Two methods:
 
  1. Swapping lower pixels of one image with higher pixels of another image (human undetectable, but easy to remove)
-    - Using a key on every pixel to get an entropy
+    - Using the key on every pixel to get an entropy
  2. Randomly swapping rows in image (human detectable, but uneasy to remove)
 
 ## How it works
