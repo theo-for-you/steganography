@@ -7,7 +7,7 @@ Two methods:
 
  1. Swapping lower pixels of one image with higher pixels of another image (human undetectable, but easy to remove)
     - Using the key on every pixel to get an entropy
- 2. Randomly swapping rows in image (human detectable, but uneasy to remove)
+ 2. Randomly swapping rows in the encrypting image (human detectable, but uneasy to remove)
 
 ## How it works
 [Steganography: Hiding an image inside another](https://towardsdatascience.com/steganography-hiding-an-image-inside-another-77ca66b2acb1) by Kelvin Salton do Prado
